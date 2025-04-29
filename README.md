@@ -1,4 +1,5 @@
 # Untappd Model Context Protocol Server
+[![smithery badge](https://smithery.ai/badge/@jtucker/mcp-untappd-server)](https://smithery.ai/server/@jtucker/mcp-untappd-server)
 
 This is a simple MCP server written in `node` to query the [Untappd API](https://untappd.com/api/docs). Unfortunately they are no longer accepting registrations for new API keys. 
 
@@ -40,6 +41,14 @@ On Windows: `%APPDATA%/Claude/claude_desktop_config.json`
     }
   }
 }
+```
+
+### Installing via Smithery
+
+To install Untappd Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@jtucker/mcp-untappd-server):
+
+```bash
+npx -y @smithery/cli install @jtucker/mcp-untappd-server --client claude
 ```
 
 ### Debugging
